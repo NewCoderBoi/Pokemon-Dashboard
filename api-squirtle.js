@@ -75,7 +75,7 @@ fetch("https://pokeapi.co/api/v2/pokemon/squirtle" , {
 
         // TYPE
         battle_type.innerHTML = data.types[0].type.name.toUpperCase()
-        battle_type.href = data.types[0].type.url
+        
     
         //STATS
         hp.innerHTML = `${data.stats[0].stat.name.toUpperCase()}`
