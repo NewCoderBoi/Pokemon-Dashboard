@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="detailPageStyle.css">
+    <title>Pikachu Details</title>
+</head>
+<body>
+    <div class = "heading">
+        <img src="" alt=""  id="front-default-left" width="200" height="200">
+        <img src="Pokeball.png" alt="" width="200" height="200" class="pokeball_banner">
+        <img src="" alt="" id="front-default-right" width="200" height="200">
+    </div>
+    <div class="border">
+        <br><br>
+        <div class=""></div>
+    </div>
+    <div class = page-content>
+        <div class="title">
+            <h1>025. Pikachu</h1>
+        </div>
+        <br><br>
+        <div class="battle_type">
+            TYPE:   <a href="" id="type"></a>
+        </div>
+
+        <div class="image">
+          <img src="pokemonimages/025-pikachu@3x.png" alt="" width="200" height="200">
+        </div>
+        <div class="stats">
+            <h3>Stats -</h3>
+            <table class="content-table">
+                <thead>
+                  <tr>
+                    <th>No.</th>
+                    <th>Name</th>
+                    <th class="last">Value</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr >
+                    <td>1.</td>
+                    <td id="hp"></td>
+                    <td class="last" id="hpvalue"></td>
+                    
+                  </tr >
+                  <tr class="active-row" >
+                    <td>2.</td>
+                    <td id="attack"></td>
+                    <td class="last"  id="attackvalue"></td>
+                    
+                  </tr >
+                  <tr >
+                    <td>3.</td>
+                    <td id="defence"></td>
+                    <td class="last" id="defencevalue"></td>
+                    
+                  </tr>
+
+                  <tr >
+                    <td>4.</td>
+                    <td id="spattack"></td>
+                    <td class="last" id="spattackvalue"></td>
+                    
+                  </tr>
+
+                  <tr >
+                    <td>5.</td>
+                    <td id="spdefence"></td>
+                    <td class="last" id="spdefencevalue"></td>
+                    
+                  </tr>
+
+                  <tr >
+                    <td>6.</td>
+                    <td id="speed"></td>
+                    <td class="last" id="speedvalue"></td>
+                    
+                  </tr>
+                </tbody>
+              </table>
+        </div>
+    </div>
+    <script src="api-pikachu.js"></script>
+</body>
+</html>

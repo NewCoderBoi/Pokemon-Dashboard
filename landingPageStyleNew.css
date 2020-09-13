@@ -1,0 +1,81 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+
+    /* background-image: url('pokemonfight.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    background-position: center;  */
+    background-color: #333;
+}
+
+
+.page-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #fff;
+    font-family: "Montserrat";
+}
+
+.title {
+    margin: 5vh 0;
+    margin-bottom: 5vh;
+    font-size: 7vw;
+}
+
+.sub-title {
+    margin-left: 20vw;
+    font-weight: 25;
+    font-size: 35px;
+}
+
+.pokemons{
+    margin-top: 30px;
+    width: 70vw;
+    display: flex;
+    flex-direction: column;
+}
+
+.pokemons p{
+    font-size: 30px;
+    font-weight: 25;
+    margin-bottom: 40px;
+    text-decoration: underline;
+}
+
+.image-grid{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.pokemon-image {
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+}
+
+.pokemon-image:hover{
+    opacity: 0.6;
+    cursor: pointer;
+}
+
+.pokemon-image .caption{
+    color: #fff;
+    padding-top: 10px;
+}
+
+.copyright{
+    margin-top: 140px;
+    margin-left: 40vw;
+    font-size: 15px;
+    font-weight: 10;
+}

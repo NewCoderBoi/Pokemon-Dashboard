@@ -1,0 +1,149 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Montserrat";
+    /* background-color: rgb(107, 202, 135); */
+}
+
+.heading {
+    display: flex;
+    justify-content: space-evenly;
+    /* background-color: rgb(185, 136, 136); */
+    background-color: #cfc8a4;
+}
+
+
+
+ .pokeball_banner {
+    border-radius: 50%;
+    padding: 15px;
+} 
+
+.page-content {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.title {
+    font-size: 35px;
+}
+
+.battle_type {
+    font-size: 20px;
+    
+}
+
+#type {
+    color: black;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.image {
+  margin-top: 30px;
+  margin-left: 20px;
+  
+}
+
+.image:hover {
+  transition: all 4s ease-in-out 0.2s;
+  animation: resize 2s ease 0.5s normal
+}
+
+.stats {
+    margin: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 32vw;
+}
+
+.stats h3 {
+    font-size: 25px;
+    text-decoration: underline;
+}
+
+/*#hp {
+    margin-bottom: 10px;
+}
+
+#attack {
+    margin-bottom: 10px;
+}
+
+#defence {
+    margin-bottom: 10px;
+}
+
+#spattack {
+    margin-bottom: 10px;
+}
+
+#spdefence {
+    margin-bottom: 10px;
+}
+
+#speed {
+    margin-bottom: 10px;
+} */
+
+.content-table {
+    border-collapse: collapse;
+    margin: 5vh 0;
+    font-size: 0.9em;
+    min-width: 400px;
+    border-radius: 20px 20px 0 0;
+    overflow: hidden;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+    margin-left: 2vw;
+  }
+  
+  .content-table thead tr {
+    background-color: #b10202;
+    color: #ffffff;
+    text-align: left;
+    font-weight: bold;
+    margin-left: 2px;
+  }
+  
+  .content-table th,
+  .content-table td {
+    padding: 12px 15px;
+  }
+
+  .last {
+    padding: 12px 0px;
+  }
+  
+  .content-table tbody tr {
+    border-bottom: 1px solid #dddddd;
+  }
+  
+  .content-table tbody tr:nth-of-type(even) {
+    background-color: #fdf6d4;
+  }
+  
+  .content-table tbody tr:last-of-type {
+    border-bottom: 2px solid #fdf6d4;
+  }
+  
+  /* .content-table tbody tr.active-row {
+    font-weight: bold;
+    background-color: #6e02ac;
+  } */
+  
+
+@keyframes resize {
+
+  0% { transform: scale(1) rotate(0deg)}
+  20% {transform: scale(1.1) rotate(0deg)}
+  40% {transform: scale(1.1) rotate(-5deg)}
+  60% {transform: scale(1.1) rotate(5deg)}
+  80% {transform: scale(1.1) rotate(0deg)}
+  100% {transform: scale(1) rotate(0deg)}
+
+}
